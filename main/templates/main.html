@@ -12,7 +12,7 @@
           <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
           <!-- <a class="nav-link" href="#">Pricing</a> -->
           <a href="{% url 'main:logout' %}">
-            <button>
+            <button style="color: maroon;">
                 Logout
             </button>
         </a>
@@ -64,44 +64,6 @@
         </div>
     </div>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Product by AJAX</button>
-        <!-- <tr>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Description</th>
-            <th>Date Added</th>
-        </tr>
-    
-        {% comment %} Berikut cara memperlihatkan data produk di bawah baris ini {% endcomment %}
-    
-        {% for product in products %}
-            <tr>
-                <td>{{product.name}}</td>
-                <td>{{product.price}}</td>
-                <td>{{product.description}}</td>
-                <td>{{product.date_added}}</td> -->
-                <!-- <td>
-                  <a href="{% url 'main:edit_product' product.pk %}">
-                      <button>
-                          Edit
-                      </button>
-                  </a>
-              </td> -->
-              <!-- <td>
-                <a href="{% url 'main:edit_product' product.pk %}">
-                    <button>
-                        Edit
-                    </button>
-                </a>
-                <a href="{% url 'main:delete_product' product.pk %}">
-                      <button>
-                          Delete
-                      </button>
-                  </a>
-            </td>
-            </tr>
-
-        {% endfor %}
-    </table> -->
     
     <br />
     
